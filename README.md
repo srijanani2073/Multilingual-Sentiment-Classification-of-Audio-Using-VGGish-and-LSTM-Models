@@ -124,6 +124,7 @@ jupyter notebook notebooks/final-model.ipynb
 This project is published as a research paper:
 "Multilingual Sentiment Classification of Audio Using VGGish and LSTM Models"
 DOI: 10.1177/18758967251345859
+
 [Paper](https://doi.org/10.1177/18758967251345859)
 
 ## Authors
