@@ -22,14 +22,43 @@ Audio Input
 → Emotion Classification  
 
 ## Dataset
-The model is trained on multiple benchmark datasets:
 
-- RAVDESS (English): Emotional speech and song dataset  
-- EMO-DB (German): Actor-based emotional speech dataset  
-- TESS (English): High-quality emotional speech dataset  
-- Kannada Dataset (Kannada): Regional emotional dataset  
-- BanglaSER (Bengali): Speech emotion dataset  
+This project utilizes multiple benchmark datasets across different languages to ensure robust multilingual emotion recognition. The datasets cover diverse speakers, recording conditions, and emotional expressions.
 
+### EMO-DB (Berlin Database of Emotional Speech)
+- Language: German  
+- Samples: 535 utterances  
+- Sampling Rate: 16 kHz  
+- Speakers: 10 professional actors  
+- Emotions: anger, boredom, disgust, anxiety/fear, happiness, sadness, neutral  
+
+### RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+- Language: English  
+- Samples: 1,440 speech + 1,440 song files  
+- Sampling Rate: 48 kHz  
+- Speakers: 24 actors  
+- Emotions: neutral, calm, happiness, sadness, anger, fear, disgust, surprise  
+
+### TESS (Toronto Emotional Speech Set)
+- Language: English  
+- Samples: 2,800 audio recordings  
+- Speakers: 2 actresses (ages 26–64)  
+- Emotions: anger, disgust, fear, happiness, surprise, sadness, neutral  
+
+### Kannada Emotional Speech Dataset
+- Language: Kannada  
+- Samples: 468 audio recordings  
+- Sampling Rate: 44.1 kHz  
+- Emotions: anger, happiness, sadness, fear, neutral  
+
+### BanglaSER (Bengali Speech Emotion Recognition Dataset)
+- Language: Bengali  
+- Samples: 1,467 audio recordings  
+- Speakers: 34 (balanced gender distribution)  
+- Emotions: anger, happiness, neutral, sadness, surprise  
+
+### Statistical Analysis
+A statistical summary of all datasets was performed, including metrics such as mean, standard deviation, skewness, kurtosis, median, range, interquartile range, and entropy. This analysis helps in understanding the distribution and variability of audio signals across datasets, which is important for robust model training and generalization.
 Emotions classified:
 - Anger
 - Disgust
