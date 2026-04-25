@@ -1,0 +1,2 @@
+# Multilingual-Sentiment-Classification-of-Audio-Using-VGGish-and-LSTM-Models
+04 Jun 2025 Audio ML Multilingual Sentiment Classification of Audio Using VGGish and LSTM Models A multilingual deep learning framework for audio sentiment classification across multiple languages. Uses VGGish for feature extraction from raw audio and LSTM-based sequence modeling for classification, achieving high accuracy across language families.
